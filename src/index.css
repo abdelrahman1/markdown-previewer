@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background-color: #444444;
+}
+
+textarea {
+  padding: 10px;
+  word-wrap: break-word;
+  resize: none;
+}
+
+.container {
+  margin-top: 10px;
+}
+
+.marked {
+  color: #333;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  word-wrap: break-word;
+}

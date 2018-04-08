@@ -1,0 +1,24 @@
+{
+  "name": "markdown-previewer",
+  "homepage": "http://abdelrahman1.github.io/markdown-previewer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "marked": "^0.3.19",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "deploy":"gh-pages -d build",
+    "predeploy":"yarn run build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}
